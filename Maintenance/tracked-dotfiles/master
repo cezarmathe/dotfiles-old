@@ -1,0 +1,17 @@
+.config/K/Lightscreen.conf
+.config/KeePass
+.config/myconfigs
+.config/plank
+.config/redshift
+.config/rofi
+.config/compton.conf
+.config/project_tools.json
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.bash_profile
+.bashrc
+.xinitrc
+.xprofile
+.gitconfig
+Scripts
+Maintenance

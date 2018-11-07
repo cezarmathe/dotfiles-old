@@ -1,0 +1,4 @@
+# Keychain SSH keys
+eval $(keychain -q --eval id_rsa ~/.ssh/id_rsa)
+eval $(keychain -q --eval github ~/.ssh/github)
+eval $(keychain -q --eval ssh ~/.ssh/ssh)

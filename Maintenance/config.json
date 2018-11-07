@@ -1,0 +1,53 @@
+{
+  "homedir" : {
+    "symlinks" : [
+      {
+        "name" : "SSH directory",
+        "link-name" : ".ssh",
+        "link-address" : "/home/cezar/Dropbox/Backups/.ssh"
+      },
+      {
+        "name" : "GNUPG directory",
+        "link-name" : ".gnupg",
+        "link-address" : "/home/cezar/Dropbox/Backups/.gnupg"
+      },
+      {
+        "name" : "Password database",
+        "link-name" : ".passstore",
+        "link-address" : "/home/cezar/Dropbox/Backups/.passstore"
+      }
+    ],
+    "tracked-dotfiles" : [
+      ".config/autostart",
+      ".config/gtk-3.0/bookmarks",
+      ".config/K/Lightscreen.conf",
+      ".config/KeePass",
+      ".config/plank",
+      ".config/redshift",
+      ".config/rofi",
+      ".config/terminal",
+      ".config/Thunar/uca.xml",
+      ".config/xfce4/terminal/terminalrc",
+      ".config/xfce4/xfconf/xfce-perchannel-xml",
+      ".config/compton.conf",
+      ".config/project_tools.json",
+      ".config/user-dirs.dirs",
+      ".config/user-dirs.locale",
+      ".scripts",
+      ".bash_profile",
+      ".bashrc",
+      ".xinitrc",
+      ".xprofile"
+    ],
+    "repositories" : {
+      "local" : "/home/cezar/maintenance/.dotfiles",
+      "remote" : "git@192.168.0.206:arch-pc/dotfiles.git"
+    }
+  },
+  "packages" : {
+    "native" : "/home/cezar/.maintenance/packages/native.txt",
+    "native-extended" : "/home/cezar/.maintenance/packages/native-extended.txt",
+    "foreign" : "/home/cezar/.maintenance/packages/foreign.txt"
+  }
+  
+}

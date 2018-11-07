@@ -1,0 +1,30 @@
+#!/bin/bash
+
+BRANCH="$1"; shift
+
+if [[ "$BRANCH" == "master" ]]; then
+	GIT_BRANCH="master"
+elif [[ "$BRANCH" == "openbox" ]]; then
+	GIT_BRANCH="openbox"
+fi
+
+if [[ -z "$GIT_BRANCH" ]]; then
+	echo "No branch was specified."
+	exit 1
+fi
+
+function git_dotfiles() {
+	git --git-dir="$HOME/Maintenance/.dotfiles-local" --work-tree="$HOME" "$@"
+}
+
+function add() {
+	git_dotfiles add "$HOME/$1"
+}
+
+# git_dotfiles checkout "$GIT_BRANCH"
+
+while read -r line
+do
+	# name="$line"
+	add "$line"
+done < "$HOME/Maintenance/tracked-dotfiles/$GIT_BRANCH"
