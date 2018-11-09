@@ -6,4 +6,6 @@ pacman -Qqn > ~/Maintenance/packages/native-extended.txt
 
 pacman -Qqm > ~/Maintenance/packages/foreign.txt
 
-tar -zcvf "~/Maintenance/packages/backup_$(date --iso-8601)" ~/Maintenance/packages/*.txt
+cd "$HOME/Maintenance/packages"
+
+tar -zcvf "backup_$(date --iso-8601)" *.txt

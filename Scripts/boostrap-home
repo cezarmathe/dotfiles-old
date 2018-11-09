@@ -1,0 +1,27 @@
+#!/bin/bash
+
+function makedir() {
+	mkdir "$HOME/$1"
+}
+
+function git_dotfiles() {
+	git --git-dir="$HOME/Maintenance/.dotfiles-local" --work-tree="$HOME" "$@"
+}
+
+# Making directories
+makedir "Maintenance"
+makedir "Projects"
+makedir "Pictures/Screenshots"
+makedir "Pictures/Wallpapers"
+
+# Linking ssh and gpg
+ln -s "$HOME/Dropbox/Backups/.ssh" "$HOME/.ssh"
+ln -s "$HOME/Dropbox/Backups/.gnupg" "$HOME/.gnupg"
+ln -s "$HOME/Dropbox/Apps/Keepass2Android" "$HOME/.passstore"
+
+# Initializing the tracked files
+git_dotfiles clone https://github.com/cezarmathe/dotfiles.git
+
+
+
+
