@@ -9,10 +9,12 @@ bison
 clang
 cloc
 compton
+dart
 dhcp
 docker
 dos2unix
 etckeeper
+expac
 firefox
 flex
 gedit
@@ -26,6 +28,8 @@ gtk-xfce-engine
 hardinfo
 hub
 intel-ucode
+jdk10-openjdk
+jdk8-openjdk
 jfsutils
 keepass
 keychain
@@ -48,6 +52,10 @@ nvidia
 obconf
 patch
 plank
+pyalpm
+python-dateutil
+python-feedparser
+python-regex
 python-wxpython
 ranger
 redshift
@@ -62,6 +70,7 @@ tint2
 usbutils
 vi
 vim
+virtualbox
 vlc
 wget
 wine
