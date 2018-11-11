@@ -61,6 +61,7 @@ colord
 colord-sane
 compiler-rt
 compton
+containerd
 coreutils
 cracklib
 cronie
@@ -173,7 +174,6 @@ groff
 grub
 gsettings-desktop-schemas
 gsfonts
-gsl
 gsm
 gspell
 gssdp
@@ -185,7 +185,6 @@ gtk-update-icon-cache
 gtk-xfce-engine
 gtk2
 gtk3
-gtkglext
 gtkmm
 gtkmm3
 gtksourceview3
@@ -206,7 +205,6 @@ hub
 hunspell
 hunspell-en_US
 hwids
-hwloc
 hyphen
 iana-etc
 icu
@@ -307,7 +305,6 @@ lib32-wayland
 lib32-xz
 lib32-zlib
 libaio
-libappindicator-gtk3
 libarchive
 libass
 libassuan
@@ -334,8 +331,6 @@ libcurl-compat
 libcurl-gnutls
 libdaemon
 libdatrie
-libdbusmenu-glib
-libdbusmenu-gtk3
 libdca
 libdmx
 libdrm
@@ -374,7 +369,6 @@ libidn2
 libiec61883
 libieee1284
 libimobiledevice
-libindicator-gtk3
 libinput
 libiodbc
 libiptcdata
@@ -385,7 +379,6 @@ libldap
 libmad
 libmariadbclient
 libmatroska
-libmicrohttpd
 libmm-glib
 libmnl
 libmodplug
@@ -451,7 +444,6 @@ libtheora
 libtiff
 libtirpc
 libtool
-libudev0-shim
 libunistring
 libunwind
 libupnp
@@ -577,11 +569,9 @@ npth
 nspr
 nss
 ntp
-numactl
 nvidia
 nvidia-utils
 obconf
-ocl-icd
 openal
 openbox
 opencl-headers
@@ -603,7 +593,6 @@ pam
 pambase
 pango
 pangomm
-pangox-compat
 parted
 patch
 pavucontrol
@@ -668,7 +657,6 @@ python-retrying
 python-setproctitle
 python-setuptools
 python-sgmllib
-python-shiboken2
 python-six
 python-urllib3
 python-webencodings
@@ -688,13 +676,8 @@ python2-wxpython3
 python2-xlib
 qt5-base
 qt5-declarative
-qt5-location
 qt5-multimedia
-qt5-quickcontrols
-qt5-sensors
 qt5-svg
-qt5-webchannel
-qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
 ranger
@@ -706,14 +689,15 @@ rest
 rhash
 ristretto
 rofi
-rsync
 rtkit
 rtmpdump
 run-parts
+runc
 rustup
 s-nail
 sane
 screenfetch
+sdl
 sdl2
 seahorse
 sed
@@ -771,6 +755,8 @@ vi
 vid.stab
 vim
 vim-runtime
+virtualbox
+virtualbox-host-modules-arch
 vlc
 volume_key
 vsqlite++
